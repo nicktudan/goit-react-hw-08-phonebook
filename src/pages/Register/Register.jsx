@@ -6,7 +6,7 @@ import {
   RegisterLabel,
 } from './Register.styled';
 
-const RegisterPage = () => {
+const Register = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = evt => {
@@ -46,4 +46,4 @@ const RegisterPage = () => {
   );
 };
 
-export default RegisterPage;
+export default Register;

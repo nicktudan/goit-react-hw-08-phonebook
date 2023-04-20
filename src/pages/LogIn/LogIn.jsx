@@ -4,7 +4,7 @@ import { logIn } from 'redux/auth/operations';
 
 import { LoginForm, LoginLabel } from './LogIn.styled';
 
-const loginPage = () => {
+const Login = () => {
   const dispatch = useDispatch();
 
   const handleSubmit = evt => {
@@ -39,4 +39,4 @@ const loginPage = () => {
   );
 };
 
-export default loginPage;
+export default Login;
