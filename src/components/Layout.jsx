@@ -4,6 +4,7 @@ export const Layout = styled.div`
     display: flex;
     flex-direction: column;
     font-size: 20px;
-    width: 630px;
-    margin: 40px auto 40px 80px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
 `;

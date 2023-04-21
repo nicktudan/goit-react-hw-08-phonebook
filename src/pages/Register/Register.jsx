@@ -4,6 +4,8 @@ import { register } from 'redux/auth/operations';
 import {
   RegisterForm,
   RegisterLabel,
+  RegisterInput,
+  RegisterBtn,
 } from './Register.styled';
 
 const Register = () => {
@@ -30,17 +32,29 @@ const Register = () => {
       <RegisterForm onSubmit={handleSubmit} autoComplete="off">
         <RegisterLabel>
           Username
-          <input type="text" name="name" />
+          <RegisterInput
+            type="text"
+            name="name"
+            placeholder="enter your name"
+          />
         </RegisterLabel>
         <RegisterLabel>
           Email
-          <input type="email" name="email" />
+          <RegisterInput
+            type="email"
+            name="email"
+            placeholder="enter your email"
+          />
         </RegisterLabel>
         <RegisterLabel>
           Password
-          <input type="password" name="password" />
+          <RegisterInput
+            type="password"
+            name="password"
+            placeholder="enter a password"
+          />
         </RegisterLabel>
-        <button type="submit">Register</button>
+        <RegisterBtn type="submit">Register</RegisterBtn>
       </RegisterForm>
     </div>
   );

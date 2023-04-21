@@ -9,7 +9,12 @@ export const AuthNavLink = styled(NavLink)`
   font-weight: 700;
   color: #2a363b;
 
+  :hover,
+  :focus {
+    color: #b0e0e6;
+  }
+
   &.active {
-    color: #e84a5f;
+    color: #00bfff;
   }
 `;

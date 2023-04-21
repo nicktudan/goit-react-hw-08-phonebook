@@ -11,7 +11,7 @@ export const Form = styled(FormikForm)`
     margin-top: 28px;
     margin-bottom: 28px;
     padding: 20px 130px 20px 20px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     
 `;
 
