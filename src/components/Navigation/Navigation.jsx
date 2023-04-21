@@ -9,14 +9,8 @@ export const Navigation = () => {
 
   return (
     <nav>
-      <LinkNav to="/">
-        Home
-      </LinkNav>
-      {isLoggedIn && (
-        <LinkNav to="/contacts">
-          Contacts
-        </LinkNav>
-        )}
+      <LinkNav to="/">Home</LinkNav>
+      {isLoggedIn && (<LinkNav to="/contacts">Contacts</LinkNav>)}
     </nav>
   );
 };
